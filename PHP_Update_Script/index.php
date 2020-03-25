@@ -1,9 +1,9 @@
 <?php
 // Database Credentials
-$host = '<Add your custom details>';
-$username = '<Add your custom details>';
-$password = '<Add your custom details>';
-$db_name = '<Add your custom details>';
+$host = 'team9mysql.mysql.database.azure.com';
+$username = 'team9@team9mysql';
+$password = 'videoplayer1@!';
+$db_name = 'testDB';
 
 //Establishes the connection
 $conn = mysqli_init();
