@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+img{
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+label{
+    display: block;
+}
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+th{
+    text-align: left;
+}
+td, th {
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    min-width: 960px;
+    margin: 0 auto;
+}
+.container .top{
+    width: 100%;
+    height: 100px;
+    background-color: #00a0e9;
+    padding: 20px;
+    font-size: 24px;
+}
+.container .top .user{
+    line-height: 60px;
+    float: left;
+}
+.container .top .user img{
+    height: 60px;
+    float: left;
+}
+.container .top .user a{
+    color: red;
+    margin-left: 10px;
+    border: 1px solid #666666;
+    background-color: #eeeeee;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.container .top .user a:hover{
+    background-color: #cccccc;
+    color: greenyellow;
+}
+.container .top .user span{
+    display: block;
+    float: left;
+    margin-left: 20px;
+}
+.container .top .logo{
+    float: right;
+    line-height: 60px;
+    font-weight: bold;
+}
+.container .main{
+    width: 100%;
+    min-width: 960px;
+    position: absolute;
+    bottom: 0;
+    top: 100px;
+}
+.container .main .left{
+    width: 240px;
+    padding: 20px;
+    position: absolute;
+    top:0px;
+    bottom: 0px;
+    background-color: #D8EBF2;
+}
+.container .main .left h2{
+    text-align: center;
+    margin-bottom: 1em;
+}
+.container .main .left ul{
+    padding: 10px 0;
+}
+.container .main .left ul li{
+    padding: 5px 20px;
+}
+.container .main .left ul li a{
+    display: block;
+    color: #3F3F3F;
+}
+.container .main .left ul li:hover{
+    background-color: #EEEEEE;
+}
+.container .main .center{
+    position: absolute;
+    padding: 20px;
+    left: 240px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.con{
+    width: 660px;
+}
+label {
+    display: block;
+    float: left;
+    width: 30%;
+    line-height: 40px;
+    padding-right: 30px;
+    text-align: right;
+}
+
+div.form-group {
+    overflow: hidden;
+
+    margin-bottom: 10px;
+}
+
+div.col {
+    float: left;
+    width: 70%;
+    text-align: left;
+}
+
+div.col input {
+    width: 90%;
+    height: 40px;
+    font-size: 28px;
+    padding-left: 10px;
+}
+
+div.submit {
+    text-align: center;
+}
+
+div.submit input {
+    width: 240px;
+    height: 40px;
+}
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: middle;
+    border-top: 1px solid #ddd;
+}
+.table > thead > tr > th {
+    vertical-align: middle;
+    border-bottom: 2px solid #ddd;
+}
+.table > caption + thead > tr:first-child > th,
+.table > colgroup + thead > tr:first-child > th,
+.table > thead:first-child > tr:first-child > th,
+.table > caption + thead > tr:first-child > td,
+.table > colgroup + thead > tr:first-child > td,
+.table > thead:first-child > tr:first-child > td {
+    border-top: 0;
+}
+.table > tbody + tbody {
+    border-top: 2px solid #ddd;
+}
+.table .table {
+    background-color: #fff;
+}
+.table-bordered {
+    border: 1px solid #ddd;
+}
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+    border: 1px solid #ddd;
+}
+.table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td {
+    border-bottom-width: 2px;
+}
+.table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td {
+    border-bottom-width: 2px;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+.table-hover > tbody > tr:hover {
+    background-color: #f5f5f5;
+}
+.table a{
+    display: block;
+    padding: 10px 20px;
+    float: left;
+    margin-right: 10px;
+    border: 1px solid #EEEEEE;
+    background-color: #00a0e9;
+    border-radius: 5px;
+    color: #666666;
+}
+.table a:hover{
+    background-color: #00b0ff;
+}
+.table a img{
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    float: left;
+}
+.table a span{
+    display: block;
+    float: left;
+    height: 16px;
+    font-size: 14px;
+    line-height: 16px;
+}
+.progress{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 40px;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    background: url("../images/loading.gif") center;
+    background-size: 40px 40px;
+}
