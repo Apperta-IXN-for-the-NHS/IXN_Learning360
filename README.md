@@ -1,9 +1,9 @@
-# Gamification of Learning - Exploring Situated Cognition in Virtual Reality using Microsoft Azure & Unity
+# Exploring Situated Cognition in Education using Virtual Reality with Microsoft Azure & Unity
 This project represents a proof of concept on how Gamification of Learning can be used to improve teaching and pedagogy, created by Team 9 of UCL's Industry Exchange Programme in collaboration with Avanade.
-It consists of two main parts, a Unity package which contains a 360° video-player with custom functionalities like the ability to add clickable zones inside the video that display information when clicked, and a simple web page that allows uploading of videos to Azure Blob Storage, allowing the videos to then be played by the 360° video-player.
+It consists of two main parts, a Unity package which contains a 360Â° video-player with custom functionalities like the ability to add clickable zones inside the video that display information when clicked, and a simple web page that allows uploading of videos to Azure Blob Storage, allowing the videos to then be played by the 360Â° video-player.
 
 ## Key functionalities of the project
-- 360° video-player that allows users to:
+- 360Â° video-player that allows users to:
   - Play/Pause/Stop/Loop video
   - Change volume and modify playback speed
   - Look around using mouse (or using a virtual headset)
