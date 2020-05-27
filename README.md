@@ -2,6 +2,8 @@
 This project represents a proof of concept on how Gamification of Learning can be used to improve teaching and pedagogy, created by Team 9 of UCL's Industry Exchange Programme in collaboration with Avanade.
 It consists of two main parts, a Unity package which contains a 360° video-player with custom functionalities like the ability to add clickable zones inside the video that display information when clicked, and a simple web page that allows uploading of videos to Azure Blob Storage, allowing the videos to then be played by the 360° video-player.
 
+Link to demo video: https://youtu.be/e6Ks14o6EZ0
+
 ## Key functionalities of the project
 - 360° video-player that allows users to:
   - Play/Pause/Stop/Loop video
